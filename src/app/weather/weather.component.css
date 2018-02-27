@@ -1,0 +1,41 @@
+mat-nav-list{
+  float:left;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+mat-list-item{
+  margin-bottom: 0.5em;
+}
+.currentData{
+  margin-left: 1em;
+}
+.currentWeather{
+  float:left;
+  margin-top: 2em;
+}
+.wind{
+  margin-top: 5em;
+}
+
+.imgWeather{
+  font-size: 10em;
+}
+.extWeather{
+  float:right;
+}
+.mat-button{
+  height: 3em;
+  width: 15em;
+  background: white;
+}
+.temp{
+  float: right;
+}
+.nameCity{
+  float: left;
+}
+.toolbar{
+  background: #2a0082;
+  color: #fbe506;
+}

@@ -1,1 +1,28 @@
-<h1>Weather in Liechtenstein</h1>
+<mat-toolbar class='toolbar' color='primary'>
+  <h1 class='header'>Weather in Liechtenstein</h1>
+</mat-toolbar>
+
+<mat-nav-list>
+  <mat-list-item *ngFor="let city of cityes">
+     <button mat-button id='{{city.id}}' (click)='extWeather($event)'>
+        <div class='nameCity'>{{city.name}}</div>
+        <div class='temp'>{{city.main.temp}}</div>
+     </button>
+  </mat-list-item>
+</mat-nav-list>
+
+<div class='currentWeather'>
+  <h3>{{this.extendedWeather.nameCity}}</h3>
+  <div class='currentData'>
+    <div>
+      <h4>{{this.extendedWeather.main}}</h4>
+      <img style='float: left;' src="{{this.extendedWeather.icon}}" >
+      <p style='float: left;'>{{this.extendedWeather.description}}</p>
+    </div>
+    <div class='wind'>
+      <h4>{{this.extendedWeather.headerWind}}</h4>
+      <p>{{this.extendedWeather.windSpeed}}</p>
+      <p>{{this.extendedWeather.windDegree}}</p>
+    </div>
+  </div>
+</div>
