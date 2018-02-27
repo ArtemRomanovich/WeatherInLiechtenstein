@@ -3,9 +3,22 @@ mat-nav-list{
   margin-top: 2em;
   margin-left: 1em;
 }
-
 mat-list-item{
   margin-bottom: 0.5em;
+}
+mat-card{
+  float: left;
+  width: 10.5em;
+}
+span{
+  margin-bottom: 2em;
+}
+.header{
+  font-weight: bold;
+}
+.extendedWeather{
+  float: right;
+  width: 54em;
 }
 .currentData{
   margin-left: 1em;
