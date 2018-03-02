@@ -1,0 +1,36 @@
+[33mcommit 326651d75fc8af1916bed89aea9d2e444b2b636a[m
+Author: ArtemRomanovich <a_r_shukin@mail.ru>
+Date:   Tue Feb 27 23:25:29 2018 +0300
+
+    addOutputOfAdditionalData
+
+[33mcommit 74b91d385922c2942c6c4b7a74dc1bfe1c0e694f[m
+Author: ArtemRomanovich <a_r_shukin@mail.ru>
+Date:   Tue Feb 27 16:32:01 2018 +0300
+
+    addCurrentWeather&Styles
+
+[33mcommit 1d5000d746a1b8b71afbbb4b1069c84dfdb712c9[m
+Author: ArtemRomanovich <a_r_shukin@mail.ru>
+Date:   Mon Feb 26 21:35:20 2018 +0300
+
+    getDataWeather
+
+[33mcommit f5a89edf46fde587609f8c178ee9b687bd2f1437[m
+Author: ArtemRomanovich <a_r_shukin@mail.ru>
+Date:   Mon Feb 26 12:16:40 2018 +0300
+
+    ReceivedInformation
+
+[33mcommit c517d4d63d3ac47e1aefbdcd00e6d663a868b6a1[m
+Author: Angular CLI <angular-cli@angular.io>
+Date:   Mon Feb 26 10:45:26 2018 +0300
+
+    chore: initial commit from @angular/cli
+    
+        _                      _                 ____ _     ___
+       / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+      / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+     / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+    /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                   |___/

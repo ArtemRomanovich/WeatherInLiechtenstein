@@ -1,7 +1,6 @@
 mat-nav-list{
   float:left;
   margin-top: 2em;
-  margin-left: 1em;
 }
 mat-list-item{
   margin-bottom: 0.5em;
@@ -10,8 +9,9 @@ mat-card{
   float: left;
   width: 10.5em;
 }
-span{
-  margin-bottom: 2em;
+p{
+  margin-bottom: 0.5em;
+  margin-top: 0;
 }
 .header{
   font-weight: bold;
@@ -19,6 +19,8 @@ span{
 .extendedWeather{
   float: right;
   width: 54em;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
 }
 .currentData{
   margin-left: 1em;
@@ -40,7 +42,7 @@ span{
 .mat-button{
   height: 3em;
   width: 15em;
-  background: white;
+  background: lightblue;
 }
 .temp{
   float: right;

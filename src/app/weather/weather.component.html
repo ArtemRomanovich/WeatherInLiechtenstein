@@ -1,5 +1,5 @@
 <mat-toolbar class='toolbar' color='primary'>
-  <h1 class='header'>Weather in Liechtenstein</h1>
+  <h1>Weather in Liechtenstein</h1>
 </mat-toolbar>
 
 <mat-nav-list>
@@ -17,7 +17,7 @@
     <div>
       <h4>{{this.extendedWeather.main}}</h4>
       <img style='float: left;' src="{{this.extendedWeather.icon}}" >
-      <p style='float: left;'>{{this.extendedWeather.description}}</p>
+      <p style='float: left; margin-top: 1em; margin-bottom:1em;'>{{this.extendedWeather.description}}</p>
     </div>
     <div class='wind'>
       <h4>{{this.extendedWeather.headerWind}}</h4>
@@ -29,18 +29,18 @@
 <div class='extendedWeather'>
   <mat-card *ngFor='let day of dayWeather'>
     <p>{{day.dt_txt}}</p>
-    <p class='header'>{{this.extendedWeather.nHeaderTemp}}</p>
-    <p>{{this.extendedWeather.nTemp}}{{day.main.temp}}&deg;C</p>
-    <p>{{this.extendedWeather.nTempMax}}{{day.main.temp_max}}&deg;C</p>
-    <p>{{this.extendedWeather.nTempMin}}{{day.main.temp_min}}&deg;C</p>
-    <p>{{this.extendedWeather.nHeaderHum}}{{day.main.humidity}}{{this.extendedWeather.nHumidity}}</p>
-    <p>{{this.extendedWeather.nHeaderGrnd}}</p>
-    <p>{{day.main.grnd_level}}{{this.extendedWeather.nGrndLvl}}</p>
-    <p>{{this.extendedWeather.nHeaderSea}}</p>
-    <p>{{day.main.sea_level}}{{this.extendedWeather.nSeaLvl}}</p>
-    <p>{{this.extendedWeather.nHeaderWtDesc}}</p>
+    <p class='header'>{{this.nHeaderWeather.nHeaderTemp}}</p>
+    <p>{{this.nHeaderWeather.nTemp}}{{day.main.temp}}&deg;C</p>
+    <p>{{this.nHeaderWeather.nTempMax}}{{day.main.temp_max}}&deg;C</p>
+    <p>{{this.nHeaderWeather.nTempMin}}{{day.main.temp_min}}&deg;C</p>
+    <p>{{this.nHeaderWeather.nHeaderHum}}{{day.main.humidity}}{{this.nHeaderWeather.nHumidity}}</p>
+    <p>{{this.nHeaderWeather.nHeaderGrnd}}</p>
+    <p>{{day.main.grnd_level}}{{this.nHeaderWeather.nGrndLvl}}</p>
+    <p>{{this.nHeaderWeather.nHeaderSea}}</p>
+    <p>{{day.main.sea_level}}{{this.nHeaderWeather.nSeaLvl}}</p>
+    <p>{{this.nHeaderWeather.nHeaderWtDesc}}</p>
     <p>{{day.weather[0].description}}</p>
-    <p>{{this.extendedWeather.nHeaderWtSpeed}}</p><p>{{day.wind.speed}}{{this.extendedWeather.nWiSpeed}}</p>
+    <p>{{this.nHeaderWeather.nHeaderWtSpeed}}</p><p>{{day.wind.speed}}{{this.nHeaderWeather.nWiSpeed}}</p>
 
 
   </mat-card>
